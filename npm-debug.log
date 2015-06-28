@@ -1,0 +1,169 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bl',
+1 verbose cli   'concat-streams' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'bl', null ]
+6 verbose cache add name=undefined spec="bl" args=["bl",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'bl',
+7 verbose parsed url   path: 'bl',
+7 verbose parsed url   href: 'bl' }
+8 verbose cache add [ 'concat-streams', null ]
+9 verbose cache add name=undefined spec="concat-streams" args=["concat-streams",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'concat-streams',
+10 verbose parsed url   path: 'concat-streams',
+10 verbose parsed url   href: 'concat-streams' }
+11 silly lockFile f55fb781-bl bl
+12 verbose lock bl /home/itsashis4u/.npm/f55fb781-bl.lock
+13 silly lockFile 1c313d17-concat-streams concat-streams
+14 verbose lock concat-streams /home/itsashis4u/.npm/1c313d17-concat-streams.lock
+15 silly lockFile f55fb781-bl bl
+16 silly lockFile f55fb781-bl bl
+17 silly lockFile 1c313d17-concat-streams concat-streams
+18 silly lockFile 1c313d17-concat-streams concat-streams
+19 verbose addNamed [ 'bl', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile f83e65ee-bl bl@
+22 verbose lock bl@ /home/itsashis4u/.npm/f83e65ee-bl.lock
+23 verbose addNamed [ 'concat-streams', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 61d86c15-concat-streams concat-streams@
+26 verbose lock concat-streams@ /home/itsashis4u/.npm/61d86c15-concat-streams.lock
+27 silly addNameRange { name: 'bl', range: '*', hasData: false }
+28 silly addNameRange { name: 'concat-streams', range: '*', hasData: false }
+29 verbose request where is /concat-streams
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id dd42bb0f9e8e074d
+32 verbose url raw /concat-streams
+33 verbose url resolving [ 'https://registry.npmjs.org/', './concat-streams' ]
+34 verbose url resolved https://registry.npmjs.org/concat-streams
+35 verbose request where is https://registry.npmjs.org/concat-streams
+36 info trying registry request attempt 1 at 00:53:18
+37 http GET https://registry.npmjs.org/concat-streams
+38 verbose request where is /bl
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /bl
+41 verbose url resolving [ 'https://registry.npmjs.org/', './bl' ]
+42 verbose url resolved https://registry.npmjs.org/bl
+43 verbose request where is https://registry.npmjs.org/bl
+44 info trying registry request attempt 1 at 00:53:18
+45 verbose etag "47FX2Z9TUHM4YB1AH0PXA6S19"
+46 http GET https://registry.npmjs.org/bl
+47 http 304 https://registry.npmjs.org/bl
+48 silly registry.get cb [ 304,
+48 silly registry.get   { date: 'Sun, 28 Jun 2015 19:23:18 GMT',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     etag: '"47FX2Z9TUHM4YB1AH0PXA6S19"',
+48 silly registry.get     age: '3',
+48 silly registry.get     connection: 'keep-alive',
+48 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '2',
+48 silly registry.get     'x-timer': 'S1435519398.886077,VS0,VE0',
+48 silly registry.get     vary: 'Accept' } ]
+49 verbose etag https://registry.npmjs.org/bl from cache
+50 silly addNameRange number 2 { name: 'bl', range: '*', hasData: true }
+51 silly addNameRange versions [ 'bl',
+51 silly addNameRange   [ '0.0.0',
+51 silly addNameRange     '0.1.0',
+51 silly addNameRange     '0.1.1',
+51 silly addNameRange     '0.2.0',
+51 silly addNameRange     '0.3.0',
+51 silly addNameRange     '0.4.0',
+51 silly addNameRange     '0.4.1',
+51 silly addNameRange     '0.4.2',
+51 silly addNameRange     '0.5.0',
+51 silly addNameRange     '0.6.0',
+51 silly addNameRange     '0.7.0',
+51 silly addNameRange     '0.8.0',
+51 silly addNameRange     '0.8.1',
+51 silly addNameRange     '0.8.2',
+51 silly addNameRange     '0.9.0',
+51 silly addNameRange     '0.9.1',
+51 silly addNameRange     '0.9.2',
+51 silly addNameRange     '0.9.3',
+51 silly addNameRange     '0.9.4',
+51 silly addNameRange     '1.0.0' ] ]
+52 verbose addNamed [ 'bl', '1.0.0' ]
+53 verbose addNamed [ '1.0.0', '1.0.0' ]
+54 silly lockFile 314bbb77-bl-1-0-0 bl@1.0.0
+55 verbose lock bl@1.0.0 /home/itsashis4u/.npm/314bbb77-bl-1-0-0.lock
+56 silly lockFile 9b97d6a5-gistry-npmjs-org-bl-bl-1-0-0-tgz https://registry.npmjs.org/bl/-/bl-1.0.0.tgz
+57 verbose lock https://registry.npmjs.org/bl/-/bl-1.0.0.tgz /home/itsashis4u/.npm/9b97d6a5-gistry-npmjs-org-bl-bl-1-0-0-tgz.lock
+58 verbose addRemoteTarball [ 'https://registry.npmjs.org/bl/-/bl-1.0.0.tgz',
+58 verbose addRemoteTarball   'ada9a8a89a6d7ac60862f7dec7db207873e0c3f5' ]
+59 info retry fetch attempt 1 at 00:53:18
+60 verbose fetch to= /tmp/npm-11952-N681RCKV/registry.npmjs.org/bl/-/bl-1.0.0.tgz
+61 http GET https://registry.npmjs.org/bl/-/bl-1.0.0.tgz
+62 http 404 https://registry.npmjs.org/concat-streams
+63 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+63 verbose headers   'content-type': 'application/json',
+63 verbose headers   'cache-control': 'max-age=0',
+63 verbose headers   'content-length': '51',
+63 verbose headers   'accept-ranges': 'bytes',
+63 verbose headers   date: 'Sun, 28 Jun 2015 19:23:19 GMT',
+63 verbose headers   via: '1.1 varnish',
+63 verbose headers   connection: 'keep-alive',
+63 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+63 verbose headers   'x-cache': 'MISS',
+63 verbose headers   'x-cache-hits': '0',
+63 verbose headers   'x-timer': 'S1435519398.854038,VS0,VE246' }
+64 silly registry.get cb [ 404,
+64 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+64 silly registry.get     'content-type': 'application/json',
+64 silly registry.get     'cache-control': 'max-age=0',
+64 silly registry.get     'content-length': '51',
+64 silly registry.get     'accept-ranges': 'bytes',
+64 silly registry.get     date: 'Sun, 28 Jun 2015 19:23:19 GMT',
+64 silly registry.get     via: '1.1 varnish',
+64 silly registry.get     connection: 'keep-alive',
+64 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
+64 silly registry.get     'x-cache': 'MISS',
+64 silly registry.get     'x-cache-hits': '0',
+64 silly registry.get     'x-timer': 'S1435519398.854038,VS0,VE246' } ]
+65 silly lockFile 61d86c15-concat-streams concat-streams@
+66 silly lockFile 61d86c15-concat-streams concat-streams@
+67 http 200 https://registry.npmjs.org/bl/-/bl-1.0.0.tgz
+68 silly lockFile 9b97d6a5-gistry-npmjs-org-bl-bl-1-0-0-tgz https://registry.npmjs.org/bl/-/bl-1.0.0.tgz
+69 silly lockFile 9b97d6a5-gistry-npmjs-org-bl-bl-1-0-0-tgz https://registry.npmjs.org/bl/-/bl-1.0.0.tgz
+70 silly lockFile 314bbb77-bl-1-0-0 bl@1.0.0
+71 silly lockFile 314bbb77-bl-1-0-0 bl@1.0.0
+72 silly lockFile f83e65ee-bl bl@
+73 silly lockFile f83e65ee-bl bl@
+74 error 404 404 Not Found: concat-streams
+74 error 404
+74 error 404 'concat-streams' is not in the npm registry.
+74 error 404 You should bug the author to publish it
+74 error 404
+74 error 404 Note that you can also install from a
+74 error 404 tarball, folder, or http url, or git url.
+75 error System Linux 3.2.0-86-generic
+76 error command "/usr/bin/node" "/usr/bin/npm" "install" "bl" "concat-streams"
+77 error cwd /home/itsashis4u/learn/learnyounode
+78 error node -v v0.10.38
+79 error npm -v 1.4.28
+80 error code E404
+81 verbose exit [ 1, true ]
